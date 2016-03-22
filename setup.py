@@ -35,10 +35,10 @@ def find_package_data(**packages):
 setup(
     name='django-basic-models',
     version=".".join(map(str, VERSION)),
-    packages = find_packages(),
-    package_data = find_package_data(basic_models=['templates',]),
-    install_requires = [
-        "django-autoslug==1.7.2"
+    packages=find_packages(),
+    package_data=find_package_data(basic_models=['templates',]),
+    install_requires=[
+        "django-autoslug==1.9.2"
     ],
 
     author = 'Concentric Sky',
